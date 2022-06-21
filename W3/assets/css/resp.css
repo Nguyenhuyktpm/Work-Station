@@ -53,5 +53,11 @@
 .contact-form{
    margin-top: 16px;
 }
+
+.row{
+   flex-direction: column;
+   margin: 20px 0;
+}
+
 }
 
