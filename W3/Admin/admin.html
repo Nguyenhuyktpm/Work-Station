@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Admin/assets/css/ad_style.css">
+    <link rel="stylesheet" href="/assets/Fonts/themify-icons/themify-icons.css">
+    
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div id="header">
+        <div class="home">
+            <a href="/index.html">
+                <i class="ti-home"></i>
+            </a>
+        </div>
+        
+        <h1>Ticket Management</h1>
+    </div>
+
+    <div id="body">
+        <div class="tour-list">
+            <div class="conten-section">
+               
+                 <!-- place -->
+       <div class="row place-list">
+        <div class="col-third col place-item">
+            <img src="/assets/img/place/place1.jpg" alt="place1" class="place-img">
+            <div class="place-body">
+                <h3 class="place-heading">New York</h3>
+                <p class="place-qtt-tickets">Number of tickets :<p id="ny-tickets" class="tickets-quantity "></p> </p>
+                <p class="place-dsc">Number of tickets sold today: <p id="ny-sold-tickets" class="tickets-quantity "></p></p>
+                
+            </div>
+        </div>
+
+        <div class="col-third col place-item">
+            <img src="/assets/img/place/place2.jpg" alt="place1" class="place-img">
+            <div class="place-body">
+                <h3 class="place-heading">Paris</h3>
+                <p class="place-qtt-tickets">Number of tickets: <p id="pr-tickets" class="tickets-quantity "></p></p>
+                <p class="place-dsc">Number of tickets sold today: <p id="pr-sold-tickets" class="tickets-quantity "></p></p>
+                
+            </div>
+
+        </div>
+
+        <div class="col-third col place-item">
+            <img src="/assets/img/place/place3.jpg" alt="place1" class="place-img">
+            <div class="place-body">
+                <h3 class="place-heading">San Francisco</h3>
+                <p class="place-qtt-tickets">Number of tickets: <p id="sf-tickets" class="tickets-quantity "></p></p>
+                <p class="place-dsc">Number of tickets sold today: <p id="sf-sold-tickets" class="tickets-quantity "></p> </p> 
+            </div>
+        </div>
+        
+       </div>
+       
+            </div>
+        </div>
+        <table id="ad-table" class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Email</th>
+                <th scope="col">Tickets</th>
+                <th scope="col">Quantity</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+    </div>
+    
+
+
+
+</body><script src="/Admin/assets/js/quntyti-ticket.js"></script>
+<script src="/Admin/assets/js/table.js"></script>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,57 @@
+
+@media(max-width: 740px){
+
+#header{
+   overflow: hidden;
+}
+
+#header .search-button{
+   display: none;
+}
+
+#nav li{
+   display: block;
+}
+
+#nav > li:first-child{
+   display:inline-block;
+}
+
+#nav .subnav{
+   position: initial;
+   background: #333;
+}
+
+#nav .subnav a{
+   color: #fff;
+   padding: 5px 41px;
+}
+
+#nav .subnav .btn-log{
+   color: #fff;
+   padding: 5px 41px;
+   background-color: #333;
+}
+#nav  {
+   display: block;  
+}
+
+.mobile-menu{
+   display: block;
+}
+
+
+
+#conten .member-img{
+   width: 60%;
+}
+
+.col-full-mobile{
+   width: 100%;
+}
+
+.contact-form{
+   margin-top: 16px;
+}
+}
+
