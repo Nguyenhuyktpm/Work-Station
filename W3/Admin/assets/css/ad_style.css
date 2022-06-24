@@ -142,3 +142,17 @@ html{
     padding: 8px;
 }
 
+#footer{
+    text-align: center;
+    padding: 64px 0;
+    font-size: 24px;
+}
+.socials-list a{
+    text-decoration: none;
+    color: #000;
+}
+
+#footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
